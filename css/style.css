@@ -1,0 +1,175 @@
+.hidden {
+    display : none;
+}
+
+#gridContainer{
+    width:100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1.3fr;
+}
+
+.bgImg {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    }
+
+#menus{
+    width:27vw;
+}
+
+#google{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input.googleSearch{
+    width:16vw;
+    height: 5vh;
+    background-color: transparent;
+    border:none;
+    text-align: center;
+}
+
+#google img{
+    width:90px;
+    height:85px;
+}
+
+#naver{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nomad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:3vh;
+}
+
+#nomad img{
+    width:50px;
+    height:40px;
+}
+
+.naverSearch{
+    width:16vw;
+    height: 5vh;
+    background-color: transparent;
+    border:none;
+    text-align: center;
+    align-items: left;
+}
+
+#naver img{
+    width:50px;
+    height:50px;
+}
+
+
+#clockAndWeather {
+    color: ivory;
+    height: 14vh;
+    width: 14vw;
+    margin-bottom: 1vh;
+    }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 27.7vw;
+    margin-left: 1vw;
+    margin-top: 18vh;
+}
+
+#todo-list {
+    height: 38vh;
+    padding-top: 5px;
+    max-width: 29vw;
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+}
+
+ul#todo-list li{
+    list-style: none;
+    padding: 3px 3px 3px 3px;
+    margin-bottom:5px;
+    border-bottom:0.5px dashed gray;
+    font-size: 18px;
+}
+
+ul#todo-list li button{
+    border: none;
+    background-color: transparent;
+}
+
+#greeting{
+    font-size:40px;
+}
+
+#quote {
+    font-size: 16px;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    align-items: center;
+}
+
+body {
+    margin:30px;
+    font-family: 'GangwonEdu_OTFBoldA';
+    text-align: center;
+    font-size:150%;
+}
+
+input.toDo{
+    width:200px;
+    background-color: transparent;
+    border:none;
+    text-align: center;
+}
+
+input
+{
+    width: 20vw;
+    font-size:15px;
+    color:aliceblue;
+}
+
+input::placeholder
+{
+    color:ivory;
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-size: 120%;
+}
+
+input.toDo::placeholder
+{
+    color:#0c7fcc
+    ;
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-size: 120%;
+}
+
+
+#login-form{
+    padding : 5px 5px 5px 5px;
+    margin: 3vh 0px 3vh 0px;
+}
+
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
