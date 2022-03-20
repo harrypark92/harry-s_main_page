@@ -80,7 +80,7 @@ input.googleSearch{
     color: ivory;
     height: 14vh;
     width: 14vw;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
     }
 
 .container {
@@ -92,7 +92,7 @@ input.googleSearch{
 }
 
 #todo-list {
-    height: 38vh;
+    height: 36vh;
     padding-top: 5px;
     max-width: 29vw;
     width: 100%;
@@ -115,7 +115,8 @@ ul#todo-list li button{
 }
 
 #greeting{
-    font-size:40px;
+    font-size:36px;
+    margin: 3vh 0vh 1.5vh 0vh;
 }
 
 #quote {
